@@ -15,6 +15,7 @@
 .listSkills div:hover {
     background-color: #ffc042;
 }
+
 .joindre {
     display:flex;
     flex-direction:column;
