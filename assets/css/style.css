@@ -41,17 +41,14 @@
 .savoirplus:hover {
     transform: scale(1.1);
 }
-.deweb {
-    
+.devweb {
     animation-name: devBouge;
-    animation-duration: 4s;
-    
+    animation-duration: 3.5s;  
 }
 
 @keyframes devBouge {
-    0% {transform: translate(3000px);}
-    50% {transform: translate(2900px);}
-    
+    0% {transform: translate(5000px);}
+    50% {transform: translate(4900px);}
     100% {transform: translate(0px);}
     
 }
