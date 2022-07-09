@@ -61,6 +61,17 @@
 
 @media screen and (max-width: 445px) {
     .devweb {
-        font-size: 30px;
+        font-size: 30px;  
+    }
+
+    .intro-heading {
+        animation-name: devbouge;
+        animation-duration: 3.5s; 
+    }
+
+    @keyframes devbouge {
+        0% {transform: translate(500px);}
+        50% {transform: translate(490px);}
+        100% {transform: translate(0px);}  
     }
 }
