@@ -10,7 +10,6 @@
     margin: 5px 0 5px 5px;
     padding: 10px 15px;
     text-shadow: 4px 3px 4px rgba(0,0,0,0.35);
-    
 }
 
 .listSkills div:hover {
@@ -26,12 +25,36 @@
     margin: 10px;
     color: white;
     text-decoration: none;
+    transition: 400ms;
 }
 
 .joindre a:hover {
     color: #ffab07;
+    transform: scale(1.14);
 }
 
+.savoirplus {
+    transform: scale(1);
+    transition: 800ms;
+}
+
+.savoirplus:hover {
+    transform: scale(1.1);
+}
+.deweb {
+    
+    animation-name: devBouge;
+    animation-duration: 4s;
+    
+}
+
+@keyframes devBouge {
+    0% {transform: translate(3000px);}
+    50% {transform: translate(2900px);}
+    
+    100% {transform: translate(0px);}
+    
+}
 
 @media screen and (max-width: 768px) {
     .listSkills {
