@@ -47,6 +47,10 @@
     animation-duration: 3.5s;  
 }
 
+.project-list {
+    justify-content: center;
+}
+
 @keyframes devBouge {
     0% {transform: translate(5000px);}
     50% {transform: translate(4900px);}
